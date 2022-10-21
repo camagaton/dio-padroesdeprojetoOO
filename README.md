@@ -13,7 +13,7 @@ utilizando os padrões ensinados.
 ## Desenvolvimento
 
 Escolhi criar um projeto de cadastro de medicamentos a serem cadastrados para uma farmacia
-onde vai conter codigo do item, descricao do item, quantidade, lote, data de cadastro.
+onde vai conter codigo do item, descricao do item, quantidade, lote.
 
 ## Tecnologias utilizadas
 
