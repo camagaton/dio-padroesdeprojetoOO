@@ -1,4 +1,4 @@
-package com.desafio.dio.controller;
+package com.magaton.pjtpadroes.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.desafio.dio.model.Item;
-import com.desafio.dio.service.ItemService;
+import com.magaton.pjtpadroes.model.Item;
+import com.magaton.pjtpadroes.service.ItemService;
 
 @RestController
 @RequestMapping("itens")

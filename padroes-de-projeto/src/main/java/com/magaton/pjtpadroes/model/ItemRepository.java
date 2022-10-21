@@ -1,4 +1,4 @@
-package com.desafio.dio.model;
+package com.magaton.pjtpadroes.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

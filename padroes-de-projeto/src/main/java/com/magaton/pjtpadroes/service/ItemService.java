@@ -1,6 +1,6 @@
-package com.desafio.dio.service;
+package com.magaton.pjtpadroes.service;
 
-import com.desafio.dio.model.Item;
+import com.magaton.pjtpadroes.model.Item;
 
 public interface  ItemService {
 

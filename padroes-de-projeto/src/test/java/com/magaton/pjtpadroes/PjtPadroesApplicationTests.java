@@ -1,10 +1,10 @@
-package com.desafio.dio;
+package com.magaton.pjtpadroes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PadroesDeProjetoApplicationTests {
+class PjtPadroesApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.desafio.dio.model;
+package com.magaton.pjtpadroes.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

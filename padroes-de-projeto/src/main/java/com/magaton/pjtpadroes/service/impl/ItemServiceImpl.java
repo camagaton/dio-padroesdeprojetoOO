@@ -1,13 +1,13 @@
-package com.desafio.dio.service.impl;
+package com.magaton.pjtpadroes.service.impl;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.desafio.dio.model.Item;
-import com.desafio.dio.model.ItemRepository;
-import com.desafio.dio.service.ItemService;
+import com.magaton.pjtpadroes.model.Item;
+import com.magaton.pjtpadroes.model.ItemRepository;
+import com.magaton.pjtpadroes.service.ItemService;
 
 @Service
 public class ItemServiceImpl implements ItemService {
@@ -29,15 +29,14 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public void salvar(Item item) {
-        salvar(item);
-        
+       itemRepository.save(item);
     }
 
     @Override
     public void atualizar(Long id, Item item) {
        Optional<Item> itemBd = itemRepository.findById(id);
        if(itemBd.isPresent()){
-        salvar(item);
+        itemRepository.save(item);
        }
         
     }
@@ -47,5 +46,7 @@ public class ItemServiceImpl implements ItemService {
         itemRepository.deleteById(id);
         
     }
+
+    
     
 }
